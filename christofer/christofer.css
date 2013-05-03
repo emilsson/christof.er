@@ -4,33 +4,51 @@ body {
 	width: 950px;
 	margin: auto;
 	font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+	background-color: #E3E3E3;
 }
 
-nav, header {
+.navlinks {
 	font-size: 40px;
-	}	
+	text-align: right;
+}	
 	
-nav {
+
+/* Y U NO WORK???? */
+.navlinks{
 	text-align: right;
 }
 
 /* link = normaltillstånd, visited = en besökt länk */
-.links a:link, .links a:visited{
+.navlinks a:link, .navlinks a:visited{
 	text-decoration: none; /* Ingen understrykning */
-	color: #000;
+	color: #000; 
 }
 /* focus = när man tabbat till länken, hover = när man håller musen över länken*/
-.links a:focus, .links a:hover{
-	/* text-decoration: */
-	color: #A62F00;
+.navlinks a:focus, .navlinks a:hover{
+	/* text-decoration: none */
+	/* color: #A62F00; */
+
+	font-weight:none;
+	color:#FFFFFF;
+	/* background-color:#98bf21; */
+	background-color: #9FB46C;
+	width:80px;
+	text-align:center;
+	padding:0px;
+	text-decoration:none;
 }
 
 /*active = när man håller ner musknappen på länken */
-.links a:active {
-	/* text-decoration: */ 
-	color: #FF4900;
+.navlinks a:active {
+	/* text-decoration: */  
 }
 
-footer p {
-	font-size: 30px;
-} 
+footer > p {
+	font-size: 32px;
+}
+
+hr {
+	color: #9FB46C;
+}
+
+
