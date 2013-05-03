@@ -7,24 +7,38 @@ body {
 	background-color: #E3E3E3;
 }
 
-.navlinks {
-	font-size: 40px;
-	text-align: right;
-}	
-	
+header{
 
-/* Y U NO WORK???? */
-.navlinks{
-	text-align: right;
+
 }
 
+
+
+
+/* nav {
+	font-size: 40px;
+	text-align: right;
+	
+}	
+
+*/
+
+nav:first-of-type {
+	position: relative;
+	right: 0px;
+	text-align: right;
+	
+}	
+
+/* Y U NO WORK???? */
+
 /* link = normaltillstånd, visited = en besökt länk */
-.navlinks a:link, .navlinks a:visited{
+nav a:link, nav a:visited{
 	text-decoration: none; /* Ingen understrykning */
 	color: #000; 
 }
 /* focus = när man tabbat till länken, hover = när man håller musen över länken*/
-.navlinks a:focus, .navlinks a:hover{
+nav a:focus, nav a:hover{
 	/* text-decoration: none */
 	/* color: #A62F00; */
 
@@ -39,7 +53,7 @@ body {
 }
 
 /*active = när man håller ner musknappen på länken */
-.navlinks a:active {
+nav a:active {
 	/* text-decoration: */  
 }
 
