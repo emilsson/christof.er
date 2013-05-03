@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+	width: 950px;
+	margin: auto;
+	font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+}
+
+nav, header {
+	font-size: 40px;
+	}	
+	
+nav {
+	text-align: right;
+}
+
+/* link = normaltillstånd, visited = en besökt länk */
+.links a:link, .links a:visited{
+	text-decoration: none; /* Ingen understrykning */
+	color: #000;
+}
+/* focus = när man tabbat till länken, hover = när man håller musen över länken*/
+.links a:focus, .links a:hover{
+	/* text-decoration: */
+	color: #A62F00;
+}
+
+/*active = när man håller ner musknappen på länken */
+.links a:active {
+	/* text-decoration: */ 
+	color: #FF4900;
+}
+
+footer p {
+	font-size: 30px;
+} 
