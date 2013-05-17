@@ -9,7 +9,9 @@ body {
 
 header{
 
-
+}
+div:first-of-type {
+	padding:0px 25px 0px 25px; 
 }
 
 
